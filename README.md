@@ -1,4 +1,4 @@
-This is a step-by-step guide to update the .vsix package to a new Bridge version for uploading to Visual Studio gallery.
+This is a step-by-step guide to update the .vsix package with a new release of Bridge.
 
 ## Prerequisites
 
