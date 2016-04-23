@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Bridge.NET" Version="1.12.1" Language="en-US" Publisher="Object.NET" />
+    <DisplayName>Bridge.NET</DisplayName>
+    <Description xml:space="preserve">Bridge.NET for Visual Studio</Description>
+    <MoreInfo>http://bridge.net/kb/getting-started</MoreInfo>
+    <License>Resources\LICENSE.txt</License>
+    <Icon>Resources\bridgedotnet-32x32.ico</Icon>
+    <Tags>bridge bridge.net bridge js javascript C# csharp mobile ios asp.net aspnet mvc aspnetmvc web transpiler compiler object.net</Tags>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.11.0" DisplayName="Visual Studio MPF 11.0" d:Source="Installed" Version="[11.0]" />
+    <Reference Id="NuPackToolsVsix.Microsoft.67e54e40-0ae3-42c5-a949-fddf5739e7a5" MinVersion="1.7.30402.9028">
+      <Name>NuGet Package Manager</Name>
+      <MoreInfoUrl>http://docs.nuget.org/</MoreInfoUrl>
+    </Reference>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Bridge.NET\ClassLibrary.zip" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Code\Class.zip" />
+    <Asset Type="bridge.1.12.1.nupkg" d:Source="File" Path="Packages\bridge.1.12.1.nupkg" d:VsixSubPath="Packages" />
+  </Assets>
+</PackageManifest>
