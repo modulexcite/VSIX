@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Bridge.NET" Version="1.12.1" Language="en-US" Publisher="Object.NET" />
+    <Identity Id="Bridge.NET" Version="1.13.0" Language="en-US" Publisher="Object.NET" />
     <DisplayName>Bridge.NET</DisplayName>
     <Description xml:space="preserve">Bridge.NET for Visual Studio</Description>
     <MoreInfo>http://bridge.net/kb/getting-started</MoreInfo>
@@ -23,6 +23,9 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Bridge.NET\ClassLibrary.zip" />
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Code\Class.zip" />
-    <Asset Type="bridge.1.12.1.nupkg" d:Source="File" Path="Packages\bridge.1.12.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="bridge.1.13.0.nupkg" d:Source="File" Path="Packages\bridge.1.13.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="bridge.html5.1.13.0.nupkg" d:Source="File" Path="Packages\bridge.html5.1.13.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="bridge.core.1.13.0.nupkg" d:Source="File" Path="Packages\bridge.core.1.13.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="bridge.min.1.13.0.nupkg" d:Source="File" Path="Packages\bridge.min.1.13.0.nupkg" d:VsixSubPath="Packages" />
   </Assets>
 </PackageManifest>
