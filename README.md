@@ -34,8 +34,6 @@ Step-by-step guide to update the Bridge.NET **.vsix** package with a new release
    * Click the **Assets** menu item (the menu is on the left)
    * Click the item in the list with **bridge.[VERSION].nupkg** and then click the **Edit** button
    * Update **bridge.[VERSION].nupkg** in the **Type** and **Path** fields to the new version, e.g. **bridge.1.12.0.nupkg** => **bridge.1.13.0.nupkg**. Click **Ok**.
-   * Double click **Resources\LICENSE.txt** in Solution Explorer
-   * Update the version in the first line, e.g. **1.12.0** => **1.13.0**.
    * Ensure the solution build mode is **Release**
    * Build the solution
   
